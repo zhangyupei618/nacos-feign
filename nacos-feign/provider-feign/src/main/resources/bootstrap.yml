@@ -1,0 +1,11 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: provider-feign
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 95773e16-8dbb-4c81-8898-a643415022d8

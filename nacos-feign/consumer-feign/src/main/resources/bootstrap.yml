@@ -1,0 +1,12 @@
+server:
+  port: 8002
+
+
+spring:
+  application:
+    name: consumer-feign
+  cloud:
+    nacos:
+      discovery:
+        namespace: 95773e16-8dbb-4c81-8898-a643415022d8
+        server-addr: 127.0.0.1:8848
